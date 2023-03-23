@@ -1,0 +1,17 @@
+Here's an example of how you could use this class:
+
+
+
+HashTable<String, Integer> hashTable = new HashTable<>();
+hashTable.put("apple", 1);
+hashTable.put("banana", 2);
+hashTable.put("cherry", 3);
+
+System.out.println(hashTable.get("apple")); // Output: 1
+System.out.println(hashTable.get("banana")); // Output: 2
+System.out.println(hashTable.get("cherry")); // Output: 3
+
+hashTable.remove("banana");
+
+System.out.println(hashTable.containsKey("banana")); // Output: false
+System.out.println(hashTable.size()); // Output: 2
